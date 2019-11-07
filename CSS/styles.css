@@ -1,0 +1,27 @@
+span {
+    color:red;
+}
+
+.heading {
+    color:white;
+    font-family: 'Yeon Sung', cursive;
+}
+
+.navbar {
+    position:fixed;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom:whitesmoke solid 4px;
+    width: 100%;
+    top: 0;
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+#body {
+background-image: url(https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+height:100vh;
+background-size: cover;
+background-attachment: fixed;
+}
