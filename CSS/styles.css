@@ -4,7 +4,7 @@ span {
 
 .heading {
     color:white;
-    font-family: 'Yeon Sung', cursive;
+    font-family: 'Nosifer', cursive;
 }
 
 .navbar {
@@ -32,4 +32,16 @@ background-attachment: fixed;
     color: white;
     font-weight: bold;
     font-size: 2em;
+}
+.welcome {
+    font-size:2.8em;
+    font-family: 'Nosifer', cursive;
+    color:pink;
+}
+.first {
+    font-family: 'Yeon Sung', cursive;
+    font-size:1.8em;
+}
+h2 {
+    
 }
