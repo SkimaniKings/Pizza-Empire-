@@ -35,7 +35,7 @@ span {
   font-size: 2em;
 }
 .welcome {
-  font-size: 2.8em;
+  font-size: 2.1em;
   font-family: "Nosifer", cursive;
   color: pink;
 }
@@ -61,4 +61,8 @@ h2 {
   font-size: 1.2em;
   color: aqua;
   font-family: "Yeon Sung", cursive;
+}
+.heads {
+  border-bottom:2px solid black;
+  text-align: center;
 }
