@@ -66,3 +66,23 @@ h2 {
   border-bottom:2px solid black;
   text-align: center;
 }
+#contact {
+  background-color :black;
+}
+.ppp {
+  color:white;
+}
+h5 {
+  color:pink;
+}
+#subscription {
+  text-align: center;
+}
+.papa {
+  font-size:20px;
+}
+#btt {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
