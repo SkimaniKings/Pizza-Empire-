@@ -31,7 +31,7 @@ function TotalPrice (price, quantity, delivery,toppings,crust) {
     this.crust=crust;
 };
 TotalPrice.prototype.finalTotal = function () {
-    return this.price * this.quantity + this.delivery + this.toppings + this.crust;
+    return ( this.price + this.delivery + this.toppings + this.crust )* this.quantity ;
 };
 
 var sizePrices = [1200, 800, 600]
