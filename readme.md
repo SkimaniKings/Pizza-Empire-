@@ -6,8 +6,8 @@
 
 ## Deployment
 
-- You can vist the site directly by clicking [HERE](https://skimanikings.github.io/Delani-Studios/)
-- To view the source codes on github click [HERE](https://github.com/SkimaniKings/Delani-Studios)
+- You can vist the site directly by clicking [HERE](https://skimanikings.github.io/Pizza-Empire-/)
+- To view the source codes on github click [HERE](https://github.com/SkimaniKings/Pizza-Empire-)
 
 ## Project Screenshot
 
