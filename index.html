@@ -47,9 +47,7 @@
             <div class="text">
                 <h2 class="welcome"><em>Pizza</em>-Empire</h2>
                 <p class="first">The tastiest Pizza on the planet!</p>
-                <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal" data-target="#exampleModal">
-                        ORDER NOW
-                    </button>
+                <a type="button" class="btn btn-outline-info btn-lg" href="#menu">ORDER NOW</a>
             </div>
         </div>
     </div>
@@ -115,10 +113,68 @@
     </div>
     <div class="container-fluid" id="menu">
         <div class="container">
-            <h2 class="p-5">OUR MENU SPECIALS</h2>
-            <button type="button" class="btn btn-outline-info btn-lg" id="checky" >
+            <h2 class="p-5" id="menuu">OUR MENU SPECIALS</h2>
+            <button type="button" class="btn btn-outline-info btn-lg" id="checky">
                 ORDER NOW
             </button>
+            <div class="row">
+                <div class="col-md-4 mx-auto py-2">
+                    <form id="myForm">
+                        <div class="form-group">
+                            <label for="sel1">Select type:</label>
+                            <select class="form-control" id="type">
+                                <option>Margherita</option>
+                                <option>Deluxe</option>
+                                <option>Hawaiian</option>
+                                <option>Peperoni</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sel1">Select size:</label>
+                            <select class="form-control" id="size">
+                                <option value="1">Large---1200</option>
+                                <option value="2">Medium---800</option>
+                                <option value="3">Small---600</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sel1">Select crust:</label>
+                            <select class="form-control" id="crusting">
+                                <option>Cripsy</option>
+                                <option>Stuffed</option>
+                                <option>Gluten-free</option>
+                                <option>Margherita</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sel1">Select topping:</label>
+                            <select class="form-control" id="top">
+                                <option value="1">Pepperoni ---100</option>
+                                <option value="2">Mushrooms ---120</option>
+                                <option value="3">onions ---80</option>
+                                <option value="4">Sausage ---150</option>
+                                <option value="5">Bacon ---200</option>
+                            </select>
+                        </div>
+                        <div class="form-group" required>
+                            <label for="sel1">Quantity:</label>
+                            <input type="number" id="quantity" class="form-control" min="1" required>
+                        </div>
+                        <div class="form-group" required="">
+                            <label for="sel1">Delivery option:</label>
+                            <select class="form-control" id="delivery">
+                                <option value="1">No Delivery</option>
+                                <option value="2">To be Delivered</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-info btn-block" onclick="submit()">checkout</button>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
             <div class="row">
                 <div class="col-md-6 col-lg-4 my-3">
                     <div class="card">
@@ -147,64 +203,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 mx-auto py-2">
-                    <form id="myForm">
-                        <div class="form-group">
-                            <label for="sel1">Select type:</label>
-                            <select class="form-control" id="type">
-                                <option>Margherita</option>
-                                <option>Deluxe</option>
-                                <option>Hawaiian</option>
-                                <option>Peperoni</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="sel1">Select size:</label>
-                            <select class="form-control" id="size">
-                                <option value="1">Large---1200</option>
-                                <option value="2">Medium---800</option>
-                                <option value="3">Small---600</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="sel1">Select crust:</label>
-                            <select class="form-control" id="crust">
-                                <option>Cripsy</option>
-                                <option>Stuffed</option>
-                                <option>Gluten-free</option>
-                                <option>Margherita</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="sel1">Select topping:</label>
-                            <select class="form-control" id="topping">
-                                <option>Pepperoni</option>
-                                <option>Mushrooms</option>
-                                <option>onions</option>
-                                <option>Sausage</option>
-                                <option>Bacon</option>
-                            </select>
-                        </div>
-                        <div class="form-group" required>
-                            <label for="sel1">Quantity:</label>
-                            <input type="number" id="quantity" class="form-control" min="1" required>
-                        </div>
-                        <div class="form-group" required="">
-                            <label for="sel1">Delivery option:</label>
-                            <select class="form-control" id="delivery">
-                                <option value="1">No Delivery</option>
-                                <option value="2">To be Delivered</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-info btn-block" onclick="submit()">checkout</button>
 
-                        </div>
-                    </form>
-                </div>
-
-            </div>
         </div>
     </div>
     <div class="container-fluid pl-0 pr-0">
