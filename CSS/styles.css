@@ -57,6 +57,9 @@ h2 {
 #about {
   background-color: black;
 }
+#myForm {
+  display:none;
+}
 .quote {
   font-size: 1.2em;
   color: aqua;
