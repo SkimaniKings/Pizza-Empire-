@@ -6,7 +6,7 @@ function formValidate() {
   if (name == "" || email == "" || message == "") {
     alert("Please enter Valid information");
   } else {
-    alert(" Hey, thank you for shopping with us.");
+    alert(" Hey, thank you for contacting us.");
   }
 };
 $(document).ready(function(){
