@@ -65,6 +65,7 @@ $(document).ready(function(){
         }else{
             if(pizzaPick===2){
                 prompt(" Where would your like your Pizza to be Delivered? ");
+                prompt("Please enter your phone number to facilitate communication and faster delivery.")
                 alert("Your order has been received and it will be delivered. An additional 200/= will be charged for delivery.");
                 alert(newOrder.order());
                 alert("Your bill is: " + newTotal.finalTotal());
