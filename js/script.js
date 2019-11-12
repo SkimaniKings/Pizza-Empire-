@@ -70,13 +70,22 @@ $(document).ready(function(){
         alert("Thank you for shopping with us! " )
         }else{
             if(pizzaPick===2){
-                prompt(" Where would your like your Pizza to be Delivered? ");
+               var location= prompt(" Where would your like your Pizza to be Delivered? ");
+               var locations =["gpo", "ngong plaza","trm","cbd"]
+               if((location !== locations[0]) && (location !== locations[1]) && (location !== locations[2]) && (location !== locations[3])){
+                alert("Choose a location listed below")
+                alert(locations)
+                
+            }
+            else  { 
                 prompt("Please enter your phone number to facilitate communication and faster delivery.")
-                alert("Your order has been received and it will be delivered. An additional 200/= will be charged for delivery.");
+                alert("Your order has been received and it will be delivered to " + location + " An additional 200/= will be charged for delivery.");
                 alert(newOrder.order());
                 alert("Your bill is: " + newTotal.finalTotal());
                 alert("Thank you for shopping with us! Your Order will be arriving soon." )
             }
+            }
         }
 })
 });
+z
