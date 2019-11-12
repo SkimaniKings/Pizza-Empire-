@@ -1,14 +1,20 @@
-function formValidate() {
-    event.preventDefault()
-  var name = document.getElementById("name");
-  var email = document.getElementById("email");
-  var message = document.getElementById("message");
-  if (name == "" || email == "" || message == "") {
-    alert("Please enter Valid information");
-  } else {
-    alert(" Hey, thank you for contacting us.");
+function validateForm() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+       if (name == "") {
+      alert("please fill in your name");
+      return false;
+    } else if (email == "") {
+      alert("Please fill in your name and email");
+      return false;
+    } else {
+      alert(
+        name + ", we have received your message. Thank you for reaching out to us."
+      );
+    }
+    event.preventDefault();
   }
-};
+  
 $(document).ready(function(){
     $("#checky").click(function(){
         $("#myForm").toggle("5000")
