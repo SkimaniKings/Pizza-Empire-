@@ -89,7 +89,7 @@ height:80vh;
 }
 #gogo {
   animation: gogo 2s infinite;
-  /* top: 50vh;  */
+ 
 }
 @keyframes gogo {
   0%,

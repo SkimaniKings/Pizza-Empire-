@@ -14,6 +14,38 @@
 <img src="images/Screenshot1.png"> 
 - This is the landing page of the website.
 
+## BDD
+<table>
+    <tr>
+      <th>Behavior</th> 
+      <th>Input</th> 
+      <th>Output</th>   
+    </tr>
+    <tr>
+        <td>load website</td>
+        <td>Welcome to Pizza-Empire </td>
+        <td>Scroll to see different pizza types and services offered.</td>
+    </tr>
+     <tr>
+        <td>Make your Order</td>
+        <td>click on the animation on the landing page the click on Order Now to make your order. </td>
+        <td>Follow procedure till you get to see your final bill.</td>
+    </tr> 
+    <tr>
+        <td>Youy can get in touch incase of any querries</td>
+        <td>Enter you details and message</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Submit</td>
+        <td>Type you message and Submit</td>
+        <td>An alert will pop us to show your message has been received</td>
+    </tr>
+    
+       
+</table>
+
+
 ## Technologies Used
 - html
  - css
