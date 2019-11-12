@@ -67,7 +67,7 @@ $(document).ready(function(){
                 prompt(" Where would your like your Pizza to be Delivered? ");
                 alert("Your order has been received and it will be delivered. An additional 200/= will be charged for delivery.");
                 alert(newOrder.order());
-                alert( newTotal.finalTotal());
+                alert("Your bill is: " + newTotal.finalTotal());
                 alert("Thank you for shopping with us! Your Order will be arriving soon." )
             }
         }
